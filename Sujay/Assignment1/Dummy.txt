@@ -1,1 +1,37 @@
-DummyTxt
+Assignment 1 
+
+Date 28th Dec 2019 
+
+Due date: 31st Dec 2019 
+
+ 
+
+Question 1: 
+
+Write a Program to take a sting as input as in the below format  
+
+a2b3z4c5 
+
+And the output should be as below 
+
+aabbbccccczzzz  
+
+The output should be sorted. ( Program should be generic for any such inputs) 
+
+ 
+
+ 
+
+Question 2 
+
+Write a program to print the unique characters of an input string. 
+
+e.g.  
+
+input: malayalam 
+
+Output : maly 
+
+ 
+
+ 
