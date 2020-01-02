@@ -1,0 +1,19 @@
+#extract unique characters from a String
+
+# this conversion is to make sure only the string contains only lower case letters
+# as lower and upper case letters are taken as different characters
+# set conversion is used to extract unique characters from String
+# then comparision of obtained Set against given string to know occurence of characters in actual string
+
+def extract_unique_char(x): 
+    x=x.lower()
+    y=set(x)
+    z=""
+    for a in x:
+        if a not in z:
+            z+=a  
+    return z
+    
+# Driven Program 
+y="MalayalaM"
+print(extract_unique_char(y))
